@@ -4614,7 +4614,7 @@ ul.wp-block-latest-posts li:last-child {
   padding-left: 23px;
   text-transform: capitalize;
 }
-.main-menu ul.sub-menu li a:before {
+/* .main-menu ul.sub-menu li a:before {
   content: "\f105";
   position: absolute;
   top: 8px;
@@ -4629,7 +4629,7 @@ ul.wp-block-latest-posts li:last-child {
   line-height: 1;
   color: var(--title-color);
   font-weight: 500;
-}
+} */
 .main-menu ul.sub-menu li ul.sub-menu {
   left: 100%;
   right: auto;
@@ -4756,8 +4756,8 @@ ul.wp-block-latest-posts li:last-child {
   padding-left: 0px;
   text-transform: capitalize;
 }
-.main-menu ul.sub-menu li a:before {
-  content: "\f44b";
+/* .main-menu ul.sub-menu li a:before {
+  content: "";
   position: absolute;
   top: 8px;
   left: 10px;
@@ -4773,10 +4773,10 @@ ul.wp-block-latest-posts li:last-child {
   font-weight: 400;
   opacity: 0;
   transition: 0.4s;
-}
-.main-menu ul.sub-menu li a:hover {
+} */
+/* .main-menu ul.sub-menu li a:hover {
   padding-left: 25px;
-}
+} */
 .main-menu ul.sub-menu li a:hover:before {
   opacity: 1;
   left: 0;
@@ -4923,7 +4923,7 @@ ul.wp-block-latest-posts li:last-child {
   right: 0;
   padding: 11.5px 38px 11.5px 48px;
   margin-left: 345px;
-  margin-right: 400px;
+  margin-right: 300px;
 }
 .header-layout1 .header-top:before, .header-layout1 .header-top:after {
   content: "";
@@ -5007,7 +5007,7 @@ ul.wp-block-latest-posts li:last-child {
   }
   .header-layout1 .header-top {
     margin-left: 288px;
-    margin-right: 342px;
+    margin-right: 220px;
   }
 }
 /* Extra large devices */
@@ -5018,7 +5018,7 @@ ul.wp-block-latest-posts li:last-child {
   .header-layout1 .header-top {
     padding: 11.5px 38px 11.5px 38px;
     margin-left: 258px;
-    margin-right: 302px;
+    margin-right: 215px;
   }
   .header-layout1 .header-button {
     padding-left: 14px;
@@ -10020,7 +10020,7 @@ span.select2-selection.select2-selection--single:focus {
 .counter-card {
   position: relative;
   display: inline-flex;
-  gap: 25px;
+  gap: 15px;
   align-items: center;
 }
 .counter-card_wrap ~ .counter-card_wrap {
@@ -10041,7 +10041,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 .counter-card_text {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   font-family: var(--title-font);
   color: #E1E1E1;
   margin-bottom: -0.4em;
