@@ -9241,6 +9241,7 @@ span.select2-selection.select2-selection--single:focus {
 @media (max-width: 575px) {
   .about-thumb .about-img-2 {
     bottom: 50px;
+    width: 150px;
   }
   .about-grid-wrap {
     display: block;
@@ -9345,8 +9346,9 @@ span.select2-selection.select2-selection--single:focus {
 }
 .team-card_desig {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 12px;
   font-family: var(--title-font);
+  line-height: .8;
   color: var(--body-color);
 }
 .team-card:hover {
