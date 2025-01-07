@@ -999,6 +999,14 @@ ul.wp-block-rss a {
   margin: auto;
 }
 
+
+
+@media (min-width: 767px) {
+  .btn {
+    max-width: 250px;
+  }
+}
+
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: calc(var(--main-container) + var(--container-gutters));
@@ -9602,6 +9610,10 @@ span.select2-selection.select2-selection--single:focus {
   .team-slider-2 {
     max-width: 567px;
     margin-right: 0;
+  }
+  .row-custom {
+    text-align: left !important;
+    padding-left: 70px !important; 
   }
 }
 /* Extra small devices */
